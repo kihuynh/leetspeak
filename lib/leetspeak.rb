@@ -6,6 +6,8 @@ def leetspeak (letter)
     new_array.push("3")
     elsif word == "o"
     new_array.push("0")
+    elsif word == "I"
+    new_array.push("1")
     else new_array.push(word)
     end
   end

@@ -13,3 +13,9 @@ describe('#leetspeak') do
     expect(leetspeak("poop poo")).to(eq("p00p p00"))
   end
 end
+
+describe('#leetspeak') do
+  it ("letter I be replace with 1") do
+    expect(leetspeak("Ice")).to(eq("1c3"))
+  end
+end
